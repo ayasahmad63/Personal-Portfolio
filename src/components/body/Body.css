@@ -1,0 +1,11 @@
+.Body{
+    height: 130vh;
+    width: 100%;
+    background-color: #161625;;
+    padding: 12px;
+    padding-bottom: 36px;
+    /* display: flex;
+    flex-wrap:wrap ; */
+
+   
+}

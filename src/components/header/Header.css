@@ -1,0 +1,58 @@
+.Header{
+    height: 7vh;
+    width: 100%;
+    background-color: #091c34;;
+    display: flex;
+    /*  */
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    /* position: relative; */
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+.name{
+    color:#fafafa;
+    /* padding: 5px; */
+    /* font-size: 2em; */
+    
+}
+.menuicon{
+    
+    /* display: flex;
+    flex: 1; */
+    justify-content: flex-start; 
+      padding: 5px;
+    margin-right: 30px;
+   
+}
+.mobile-menu{
+    display: none;
+}
+.web-menu{
+    display: flex;
+}
+ @media only screen and (max-width:720px) {
+    .mobile-menu{
+        display: flex;
+    }
+    .web-menu{
+        display: none;
+    }
+    .name{
+        font-size: 1em;
+    }
+} 
+.mob{
+    /* display: flex; */
+    position: relative;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 98%;
+  }
+
+     

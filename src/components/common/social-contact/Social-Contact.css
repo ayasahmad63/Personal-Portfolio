@@ -1,0 +1,103 @@
+.Social-Icon-div{
+  /* display: flex; */
+  width: 40px;
+  height: auto;
+  /* display: flex; */
+  /* margin: 5px; */
+  padding: 12px;
+  margin-top: -35px;
+
+
+}
+.Social-Icon{
+   height: auto;
+   width: 100%;
+   display: inline-block;
+
+}
+.Social-Icons{
+  display: flex;
+  /* background-color: azure; */
+  width: 50vw;
+  height: 30px;
+  margin: 15px;
+
+}
+
+
+
+.Firsr-Anchor{
+  margin-left: 30px;
+  
+  padding: 8px;
+  height: 18px;
+  width: 1px;
+  font: 800 13.3333px Arial;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+    background-color: #c6ff00;
+    /* -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent; */
+    
+   text-decoration: none;
+   border-radius: 5px;
+}
+.First-Anchor-Img{
+  height: auto;
+  width: 30px;
+  margin: 2px;
+  margin-bottom: -7px;
+}
+
+.Second-Anchor{
+  font: 800 13.3333px Arial;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+    background-color: #c6ff00;
+    text-decoration: none;
+    padding: 8px;
+    height: 18px;
+    width: 1px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.Second-Anchor-Img{
+  margin-bottom: -7px;
+
+}
+
+
+@media only screen and  (max-width:800px){
+
+    .two_anchors{
+      display: flex;
+      flex-direction: column;
+      z-index: 1;
+      margin: 10px;
+      
+    }
+
+  .Firsr-Anchor{
+    margin: 20px;
+    
+    padding: 8px;
+    height: auto;
+    width: 50vw;
+   
+      
+     
+  }
+ 
+  
+  .Second-Anchor{
+    
+      width: 50vw;
+      padding: 8px;
+      height: auto;
+      margin-left: 20px;
+    
+  }
+ 
+  
+
+}
