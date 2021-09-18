@@ -10,7 +10,7 @@ const Home = () => {
         <div className="Home">
 
             <div className="Header-Component"> <Header /> </div>
-            <div className="Body-Component"> <Body /> </div>
+            {/* <div className="Body-Component"> <Body /> </div> */}
             <div className="Footer-Component"> <Footer /> </div>
 
         </div>
