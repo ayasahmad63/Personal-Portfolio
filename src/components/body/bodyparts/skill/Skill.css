@@ -1,0 +1,115 @@
+.Skill{
+height: auto ;
+width: 100%;
+/* background-color: yellowgreen; */
+margin: 12px;
+
+}
+.Skill_Heading{
+   text-align: center;
+   color: white;
+    /* text-align: center;s */
+    font-size: 5em;
+    width: 100vw;
+    height: auto;
+    font-family: 'Lobster', cursive;
+    /* background-color: yellowgreen; */
+    margin-bottom: 0;
+}
+.Skill_Content{
+    width: 95vw;
+    height:auto;
+    /* background-color: brown; */
+    /* padding: 20%; */
+     /* padding: 20px;*/
+     margin: 0 2%;
+     display: flex;
+}
+.Skill_Content_left{
+   width: 30%;
+   height: auto;
+   /* background-color: aquamarine; */
+   margin: 8%;
+   
+}
+.Skill_Content_right{
+    width: 30% ;
+    height: auto;
+    /* background-color: whitesmoke; */
+    margin: 2%;
+    margin-left: 13%;
+    
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* display: inline-block; */
+    /* display: inline-flexbox; */
+    display: inline-grid;
+  grid-template-columns:   auto auto auto auto auto;
+     grid-gap: 3px;
+}
+.SKill_Icons_Components{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+    box-sizing: inherit;
+    /* margin: 1%; */
+    /* display: grid; */
+    /* display: inline-grid;
+  grid-template-columns: auto auto auto auto auto; */
+}
+.SKill_Icons_Components_name{
+    text-align: center;
+    color: white;
+    
+}
+.SKill_Icons_Components_image{
+    width: 100%;
+    height: 80%;
+}
+.SKill_Icons_Components_image1{
+    width: 100%;
+    height: 100%;
+    margin-top: -15%;
+    z-index: 1;
+}
+.SKill_Icons_Components_image1:hover{
+    transform: scale(1,1.3);
+    
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+    .Skill_Content_left{
+        display: none;
+    }
+    .Skill_Content_right{
+        width: 90vh ;
+        height: auto;
+        /* background-color: whitesmoke; */
+        margin: 10%;
+        margin-top: 10%;
+        /* margin-left:0; */
+        /* margin-left: 0; */
+        
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* display: inline-block; */
+        /* display: inline-flexbox; */
+        display: inline-grid;
+      grid-template-columns:    auto auto auto auto;
+         /* grid-gap: 3px; */
+         grid-row-gap: 3em;
+         /* grid-column-gap: 1em; */
+    }
+    .SKill_Icons_Components_image1{
+        width: 80%;
+        height: 100%;
+        margin-top: -1%;
+        z-index: 1;
+    }
+    .Skill_Content{
+        margin: 0;
+    width: 90vw;}
+}

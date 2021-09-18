@@ -1,0 +1,90 @@
+.Contact{
+    height: auto;
+    width: 100%;
+    /* background-color: aqua; */
+    margin: 12px;
+}
+.Contact_Footer_Image{
+    width: 102%;
+    height: 40vh;
+    margin: 0;
+    margin-left: -1%;
+}
+.Contact_Content{
+    width: 100%;
+    height: auto;
+    /* background-color:brown; */
+    margin: 0;
+    display: flex;
+    color: white;
+}
+.Contact_Content_left{
+    width: 50%;
+    height: 40vh;
+    /* background-color: white; */
+    margin: 12px;
+    margin-left: 25%;
+}
+/* .Contact_Content_right{
+    width:50%;
+    height:40vh;
+    background-color: blue;
+    margin: 12px;
+} */
+.Contact_Content_left_header{
+    /* text-align: center; */
+    font-size: 2em;
+    padding: 2%;
+    font-family: 'Lobster', cursive;
+    /* font-size: xx-large; */
+    font-weight: 900;
+}
+.Contact_Content_left_Middle_content{
+    width: 90%;
+    height: 70%;
+    /* background-color: aqua; */
+    margin: 1%;
+    display: flex;
+}
+.Contact_Content_left_left{
+    width: 60%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+}
+.Contact_Content_left_right{
+       width: 40%;
+       height: auto;
+       /* background-color: blueviolet; */
+}
+.Contact_Content_left_left_material{
+    width: 80%;
+    height: 20%;
+    /* background-color: brown; */
+    margin: 2%;
+    display: flex;
+    padding: 1%;
+}
+.Contact_Content_left_left_icon{
+    height: 100%;
+    width: auto;
+}
+.Contact_Content_left_left_name{
+    /* justify-self: center; */
+    color: wheat;
+    margin: 5%;
+    /* padding: 1%; */
+    font-size: x-large;
+    margin-left: 1em;
+    font-family: cursive;
+}
+
+@media only  screen and (max-width:720px) {
+    .Contact_Content_left_right{
+        display: none;
+}
+
+.Contact_Footer_Image{
+  margin-left: -3%;
+  width: 103vw;
+}
+}

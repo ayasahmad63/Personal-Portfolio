@@ -1,6 +1,16 @@
 .Footer{
-    height: 3vh;
+    height: auto;
     width: 100%;
-    background-color: lightpink;
+    /* background-color: lightpink;s */
     padding:12px;
+    /* margin-top: 12px; */
+    color: white;
+    background-color: #161625;
+    text-align: end;
+
+}
+.Footer p{
+    margin-top: -1%;
+    padding-right: 1%;
+    font-family: 'Lobster', cursive;
 }

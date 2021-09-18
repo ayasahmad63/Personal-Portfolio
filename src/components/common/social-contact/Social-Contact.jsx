@@ -4,7 +4,7 @@ import {SocialData} from '../../data/social'
 
 const Social_Contact =()=>{
     const data=SocialData;
-    console.log(data)
+    // console.log(data)
     return(
         <div className="Socials">
         <div className="Social-Icons">

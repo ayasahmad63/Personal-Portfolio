@@ -1,0 +1,42 @@
+.Projects{
+    width: 100%;
+    height: auto;
+    background-color: #161625;
+}
+.label{ 
+    color: white;
+    text-align: center;
+     font-size: 5em;
+     font-family: 'Lobster', cursive;
+     /* background-color: yellowgreen; */
+     margin-bottom: 0;
+}
+.label h1{
+    margin-bottom: 0;
+}
+/* .Card_1_Wave{
+    height: 20px;
+    opacity: 1;
+    border: 1px solid #161625;
+    margin-bottom: -20px;
+} */
+.Card_11{
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+.Card_1_Bottom{
+    /* margin-top: 15vh; */
+}
+
+    @media only screen and (max-width:720px) {
+        .label{
+            font-size: 2em;
+        }
+        .Card_1_Bottom{
+            margin-top: 7px;
+            /* margin: 12px; */
+            width: 101vw;
+        }
+    }
+
+
