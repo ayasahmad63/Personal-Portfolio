@@ -58,8 +58,8 @@ export const ProjectData = [
 
 
         ],
-        github: "https://github.com/ayasahmad63/Frontened-Devsnest-THA",
-        liveproject: "https://ayasahmad63.github.io/Personal-Portfolio/",
+        github: "https://github.com/ayasahmad63/GamesUp",
+        liveproject: "https://ayasahmad63.github.io/GamesUp/",
         image: require("../../assests/projects/GamesUp.png").default,
     },
     {
