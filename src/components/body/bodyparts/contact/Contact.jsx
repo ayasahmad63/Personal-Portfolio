@@ -28,7 +28,7 @@ const Contact = () => {
                                 return (
                                     <div className="Contact_Content_left_left_material">
                                         <div className="Contact_Content_left_left_icon">
-                                            <a href="" ><img className="Contact_Content_left_left_icon" src={contact.icon} /></a>
+                                            <a target="_blank" href={contact.link} ><img className="Contact_Content_left_left_icon" src={contact.icon} /></a>
                                         </div>
                                         <div className="Contact_Content_left_left_name">
                                             {contact.name}

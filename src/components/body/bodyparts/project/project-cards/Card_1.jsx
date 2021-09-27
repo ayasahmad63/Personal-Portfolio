@@ -24,8 +24,8 @@ const Card_1 = (props) => {
                         }
                         )}
                         <div className="Card_1_logo_anchors">
-                            <a className="Card_1_anchor_github" href=""><img className="Card_1_icons_left" src={github} />Source Code</a>
-                            <a className="Card_1_anchor_liveproject" href="">Live Project<img className="Card_1_icons_left" src={liveproject} /></a>
+                            <a className="Card_1_anchor_github" target="_blank" href={props.data.github}><img className="Card_1_icons_left" src={github} />Source Code</a>
+                            <a className="Card_1_anchor_liveproject" target="_blank" href={props.data.liveproject}>Live Project<img className="Card_1_icons_left" src={liveproject} /></a>
                         </div>
                     </div>
                     <div className="Card_1_anchors">

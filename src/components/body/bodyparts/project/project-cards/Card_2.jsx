@@ -17,6 +17,11 @@ const Card_2 = (props) => {
                 {props.data.title}
             </div>
             <div className="Card_2_Container">
+                <div className="Card_2_right">
+
+                    <img className="Card_2_Image" src={props.data.image} />
+
+                </div>
                 <div className="Card_2_left">
                     <div className="Card_2_Content">
                         {abouts.map((abouts) => {
@@ -24,8 +29,8 @@ const Card_2 = (props) => {
                         }
                         )}
                         <div className="Card_2_logo_anchors">
-                            <a className="Card_2_anchor_github" href=""><img className="Card_2_icons_left" src={github} />Source Code</a>
-                            <a className="Card_2_anchor_liveproject" href="">Live Project<img className="Card_2_icons_left" src={liveproject} /></a>
+                            <a className="Card_2_anchor_github" target="_blank" href={props.data.github}><img className="Card_2_icons_left" src={github} />Source Code</a>
+                            <a className="Card_2_anchor_liveproject" target="_blank" href={props.data.liveproject}>Live Project<img className="Card_2_icons_left" src={liveproject} /></a>
                         </div>
                     </div>
                     <div className="Card_2_anchors">
@@ -42,11 +47,7 @@ const Card_2 = (props) => {
                     </div>
 
                 </div>
-                <div className="Card_2_right">
 
-                    <img className="Card_2_Image" src={props.data.image} />
-
-                </div>
             </div>
 
 
